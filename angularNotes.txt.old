@@ -1,0 +1,93 @@
+you need:
+	nodejs
+	npm
+		installed beforehand
+
+sudo npm install @angular/cli -g
+	--> installs angular
+
+ng new ng5 --style=scss --routing
+	--> creates new project with routing set up
+	--> this will take a few minutes
+	--> after this, cd into the directory created for you and 
+
+voila, we're ready to get going
+
+ng serve
+	--> starts hosting our server! Things like django's 
+runserver
+	--> head to a browser and go to the url given to try it 
+out! you should see an angular5 app set up and ready to go
+	--> takes a little longer than say, django's runserver as 
+it actually builds out the project before hosting
+	--> http://localhost:4200/
+		--> IT WORKED awesome!
+
+Now we're going to take a look at the components!
+
+Think of components as the building-blocks of the application! 
+For the most part we'll be working within src/app
+
+app.components.ts
+	--> view it, you'll see template urls (HTML templates!)
+	--> style urls to link us to some scss files
+		--> super css lol
+	--> appcomponent
+		--> logic info
+
+
+let's generate a new COMPONENT and call it "home"
+
+ng generate component home
+	--> create a new component
+
+ng g c about
+	--> same as about, makes an about component, but 
+shortcuts!!
+
+
+check out your structure, you'll see these COMPONENTS have their 
+own directories with templates, css, ts, etc!
+	--> this is just like django apps
+
+Let's nest our home component into our app component
+	--> open app component.html
+		--> get rid of all of it except for the 
+router-outlet at the bottom and let's make a <ul> navigation with 
+a bit of angular magic
+
+Ready to nest it? Use tags that are the name of the fuarking 
+selector!! All of this is still in the app.component.html 
+template
+
+
+<ul>
+	<li><a routerLink="">Home</a></li>
+	<li><a routerLink="">About</a></li>
+</ul>
+
+<app-home></app-home>
+<app-about></app-about>
+
+<router-outlet></router-outlet>
+
+
+So there we've got some nice links that don't work and THERE 
+with those bottom two lines we've actually inserted the full 
+templates (just the default 'home works!') to our main page at 
+localhost
+
+
+now let's look at TEMPLATING and STYLING:
+
+let's go into the homecomponents.ts file in the home component
+	--> see how it links to a template file? It helps keep 
+the template out of the way of your template ts file
+	--> we can still insert multiple lines of html instead of 
+a template b erasing templateUrl and replacing it with:
+		template: `<p>stuffff</p>`
+			--> but we won't doe that, leave it as it 
+was
+
+let's change our home components html file
+

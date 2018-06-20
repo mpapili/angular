@@ -1,0 +1,55 @@
+
+> plural-sight-site@0.0.0 start /home/mike/Downloads/git/angular/pluralsight/pluralSightSite
+> ng serve
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+[0mDate: [1m[37m2018-06-20T00:10:44.173Z[39m[22m[0m
+[0mHash: [1m[37m832b348b3a35e13efaf8[39m[22m[0m
+[0mTime: [1m[37m34995[39m[22mms[0m
+[0mchunk {[1m[33mmain[39m[22m} [1m[32mmain.js, main.js.map[39m[22m (main) 10.7 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mpolyfills[39m[22m} [1m[32mpolyfills.js, polyfills.js.map[39m[22m (polyfills) 227 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mruntime[39m[22m} [1m[32mruntime.js, runtime.js.map[39m[22m (runtime) 5.22 kB [1m[33m[entry][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mstyles[39m[22m} [1m[32mstyles.js, styles.js.map[39m[22m (styles) 15.6 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0mchunk {[1m[33mvendor[39m[22m} [1m[32mvendor.js, vendor.js.map[39m[22m (vendor) 3.06 MB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+
+[0mDate: [1m[37m2018-06-20T01:51:07.703Z[39m[22m - Hash: [1m[37m210352823eab395a85c7[39m[22m - Time: [1m[37m1578[39m[22mms[0m
+[0m4 unchanged chunks[0m
+[0mchunk {[1m[33mmain[39m[22m} [1m[32mmain.js, main.js.map[39m[22m (main) 8.95 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+[0m[0m
+[0m[1m[33mWARNING in ./src/app/app.module.ts[39m[22m[0m
+[0m[1m[33m16:16-28 "export 'AppComponent' was not found in './app.component'[39m[22m[0m
+[0m[0m
+[0m[1m[33mWARNING in ./src/app/app.module.ts[39m[22m[0m
+[0m[1m[33m22:24-36 "export 'AppComponent' was not found in './app.component'[39m[22m[0m
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[0mDate: [1m[37m2018-06-20T01:54:18.613Z[39m[22m - Hash: [1m[37m210352823eab395a85c7[39m[22m - Time: [1m[37m732[39m[22mms[0m
+[0m5 unchanged chunks[0m
+[0m[0m
+[0m[1m[33mWARNING in ./src/app/app.module.ts[39m[22m[0m
+[0m[1m[33m16:16-28 "export 'AppComponent' was not found in './app.component'[39m[22m[0m
+[0m[0m
+[0m[1m[33mWARNING in ./src/app/app.module.ts[39m[22m[0m
+[0m[1m[33m22:24-36 "export 'AppComponent' was not found in './app.component'[39m[22m[0m
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[0mDate: [1m[37m2018-06-20T02:07:37.684Z[39m[22m - Hash: [1m[37mb95ef6d95d566c9b3761[39m[22m - Time: [1m[37m1013[39m[22mms[0m
+[0m4 unchanged chunks[0m
+[0mchunk {[1m[33mmain[39m[22m} [1m[32mmain.js, main.js.map[39m[22m (main) 8.94 kB [1m[33m[initial][39m[22m[1m[32m [rendered][39m[22m[0m
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /
+
+[0mDate: [1m[37m2018-06-20T02:07:38.109Z[39m[22m - Hash: [1m[37mb95ef6d95d566c9b3761[39m[22m - Time: [1m[37m186[39m[22mms[0m
+[0m5 unchanged chunks[0m
+ℹ ｢wdm｣: Compiled successfully.
+ℹ ｢wdm｣: Compiling...
+
+[0mDate: [1m[37m2018-06-20T02:12:04.284Z[39m[22m - Hash: [1m[37mb95ef6d95d566c9b3761[39m[22m - Time: [1m[37m362[39m[22mms[0m
+[0m5 unchanged chunks[0m
+ℹ ｢wdm｣: Compiled successfully.
